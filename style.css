@@ -15,12 +15,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 800px;
-    min-height: 800px;
-    /* background-color: tomato; */
 }
 
 .barra-busca {
     height: 50px;
+    padding: 80px;
 }
 
 .barra-pesquisa {
@@ -36,14 +35,10 @@ body {
 }
 
 .imagens {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 30px;
-    gap: 15px;
+    display: columns;
+    columns: 4;
 }
 
 .imagens img {
-    width: 22%;
-    object-fit: contain;
+    width: 100%;
 }
