@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    min-height: 800px;
+    /* background-color: tomato; */
+}
+
+.barra-busca {
+    height: 50px;
+}
+
+.barra-pesquisa {
+    height: 50px;
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+.button-buscar {
+    width: 19%;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 15px;
+}
+
+.imagens img {
+    width: 22%;
+    object-fit: contain;
+}
